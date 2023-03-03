@@ -55,7 +55,8 @@ def RedNoise_delay_block():
     调用RedNoise_delay函数
     """
 
-    # 设置初始值
+    # 设置初始值  
+    #
     t = np.arange(1, 1000, 0.1)
     t0 = 100
     P = 20
@@ -68,5 +69,4 @@ def RedNoise_delay_block():
     RedNoise_d = RedNoise_delay(t,t0,P,K,O,X,k)
 
     return RedNoise_d
-
 
