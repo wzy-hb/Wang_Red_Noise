@@ -56,15 +56,6 @@ def RedNoise_delay_block():
     
     """
 
-    # 设置初始值  
-    t = np.arange(1, 1000, 0.1)
-    t0 = 100
-    P = 20
-    K = 1
-    O = 2
-    X = 5
-    k = 3
-
     # 红噪声残差
     RedNoise_d = RedNoise_delay(t,t0,P,K,O,X,k)
 
