@@ -2,7 +2,7 @@
 import numpy as np
 
 
-# @signal_base.function
+@signal_base.function
 def RedNoise_delay(t, t0, P, K, O, X, k):
 
     """
